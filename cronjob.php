@@ -19,7 +19,7 @@ class Cheevo
 }
 
 $cheevos = [
-	new Cheevo(123, "First Blood", 1500, "Lagt en order den 1:a januari", 1, 1, "first_blood"),
+	new Cheevo(84, "First Blood", 1500, "Lagt en order den 1:a januari", 1, 1, "first_blood"),
 	new Cheevo(321, "Very Valentine", 2500, "Hämtat ut order på alla hjärtans dag", 14, 2, "very_valentine"),
 	new Cheevo(1020, "Honor the Fallen", 1000, "Köpt en Apple-produkt på Steve Jobs födelsedag", 24, 2, "honor_the_fallen", "Köp en Apple-produkt idag ({today})"),
 	new Cheevo(760, "Pi-Day!", 1500, "Köpt Raspberry Pi 14:e mars", 14, 3, "pi-day", "Köp en Raspberry Pi idag ({today})"),
