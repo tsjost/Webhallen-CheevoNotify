@@ -94,7 +94,7 @@ if ( ! is_null($cheevo_today)) {
 	$c = curl_init($url .'?wait=true');
 	$o = [
 		CURLOPT_RETURNTRANSFER => true,
-		CURLOPT_POSTFIELDS => 'payload_json='. json_encode($json),
+		CURLOPT_POSTFIELDS => 'payload_json='. urlencode(json_encode($json)),
 		CURLOPT_CUSTOMREQUEST => 'POST',
 	];
 	curl_setopt_array($c, $o);
