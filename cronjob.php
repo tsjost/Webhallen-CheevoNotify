@@ -67,8 +67,10 @@ if ( ! is_null($cheevo_today)) {
 		$message = str_replace('{today}', $todaystr, $message);
 	}
 
+	$content = "$message för cheevon _{$cheevo->name}_ och $XP XP! <@&952579197577076757>";
+
 	$json = [
-		"content" => "$message för cheevon _{$cheevo->name}_ och $XP XP!",
+		"content" => $content,
 		"embeds" => [
 			[
 				"title" => "$XP XP",
