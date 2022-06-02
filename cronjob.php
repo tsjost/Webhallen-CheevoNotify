@@ -25,6 +25,7 @@ $cheevos = [
 	new Cheevo(760, "Pi-Day!", 1500, "Köpt Raspberry Pi 14:e mars", 14, 3, "pi-day", "Köp en Raspberry Pi idag ({today})"),
 	new Cheevo(754, "May the 4th Be With You", 1000, null, 4, 5, "may_the_4th_be_with_you", "Köp en Star Wars-produkt idag ({today})"),
 	new Cheevo(647, "Guten Tag!", 1000, "Lagt en order 5:e maj. Wolfstein 3D släpps till MS-DOS (1992)", 5, 5, "guten_tag"),
+	new Cheevo(1211, "GSMDay", 1000, "Handlat på GSMHackers födelsedag!", 12, 5, "gsmday"),
 	new Cheevo(1039, "Happy Birthday Nelson", 1000, "Handlat på Nelsons födelsedag, 25 maj", 25, 5, "happy_birthday_nelson"),
 	new Cheevo(920, "Trumpuuuu", 1000, "Handlat den 14:e Juni", 14, 6, "trumpuuuu"),
 	new Cheevo(644, "The Slipgate Complex", 1000, "Lagt en order 22:a juni. Quakes födelsedag (1996)", 22, 6, "the_slipgate_complex"),
