@@ -69,7 +69,8 @@ if ( ! is_null($cheevo_today)) {
 		$message = str_replace('{today}', $todaystr, $message);
 	}
 
-	$content = "$message för cheevon _{$cheevo->name}_ och $XP XP! <@&952579197577076757>";
+	$discord_role_id = getenv('DISCORD_ROLE_ID');
+	$content = "$message för cheevon _{$cheevo->name}_ och $XP XP!". ($discord_role_id ? " <@&$discord_role_id>" : '');
 
 	$json = [
 		"content" => $content,
@@ -94,7 +95,7 @@ if ( ! is_null($cheevo_today)) {
 		],
 	];
 
-	$url = 'https://discord.com/api/webhooks/1234567890/insert-your-discord-webhook-URL-here';
+	$url = getenv('DISCORD_WEBHOOK');
 	$c = curl_init($url .'?wait=true');
 	$o = [
 		CURLOPT_RETURNTRANSFER => true,
