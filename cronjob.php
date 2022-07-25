@@ -32,7 +32,7 @@ $cheevos = [
 	new Cheevo(644, "The Slipgate Complex", 1000, "Lagt en order 22:a juni. Quakes födelsedag (1996)", 22, 6, "the_slipgate_complex"),
 	// TODO A May Pole, in June
 	new Cheevo(714, "Umbasa", 1000, "Lagt en order 25:e juni. Demon's Souls släpps till PS3 i Sverige (2010)", 25, 6, "umbasa"),
-	new Cheevo(1157, "Alternative Pi Day!", 1500, "22/7 = 3.14", 22, 7, "alternative_pi_day"),
+	new Cheevo(1157, "Alternative Pi Day!", 1500, "22/7 = 3.14", 22, 7, "alternative_pi_day", "Köp en Raspberry Pi idag ({today})"),
 	new Cheevo(617, "Hidden and Dangerous XP Bonus", 1000, "Lagt en order den 29:e juli. Hidden and Dangerous födelsedag", 29, 7, "hidden_and_dangerous_xp_bonus"),
 	new Cheevo(1318, "You're a Wizard, Harry", 1000, "Köpt/beställt Harry Potter-produkt på Harry Potters födelsedag, den 31 juli (1980)", 31, 7, "youre_a_wizard_harry"),
 	new Cheevo(615, "PC Day Celebration!", 1000, "Lagt en beställning 12/8 (IBM introducerade persondatorn)", 12, 8, "pc_day_celebration"),
