@@ -56,16 +56,14 @@ $cheevos = [
 $month = date('m');
 $day = date('d');
 
-$cheevo_today = null;
+$cheevos_today = [];
 foreach ($cheevos as $cheevo) {
 	if ($month == $cheevo->month and $day == $cheevo->day) {
-		$cheevo_today = $cheevo;
-		break;
+		$cheevos_today[] = $cheevo;
 	}
 }
 
-if ( ! is_null($cheevo_today)) {
-	$cheevo = $cheevo_today;
+foreach ($cheevos_today as $cheevo) {
 	$XP = number_format($cheevo->XP, 0, ',', ' ');
 
 	$formatter = new IntlDateFormatter('sv_SE', IntlDateFormatter::LONG, IntlDateFormatter::NONE, null, null, 'd MMMM');
