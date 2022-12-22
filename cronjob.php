@@ -50,6 +50,7 @@ $cheevos = [
 	new Cheevo(85, "The Optimist", 2500, "Lagt en order (postorder) 22:a eller 23:e december", 22, 12, "the_optimist", "Postordra något idag eller imorgon (22-23 december)"),
 	new Cheevo(1356, "Close Call", 1500, "Beställt ett Webhallen presentkort den 23:e december", 23, 12, "close_call", "Beställ ett Presentkort (https://webhallen.com/i/28-Presentkort) idag ({today})"),
 	new Cheevo(687, "Maybe Next Year, Santa...", 1000, "Lagt en order på julafton (2015-)", 24, 12, "maybe_next_year_santa"),
+	new Cheevo(1357, "Home Alone", 1000, "Bokat en massageprodukt den 25:e december", 25, 12, "home_alone", "Tjöp en \"massageprodukt\" idag ({today})"),
 	new Cheevo(1317, "Fudge You", 1000, "Lagt en order den 28 december. Linus Torvalds födelsedag (1969)", 28, 12, "fudge_you"),
 	new Cheevo(688, "Same Procedure as Last Year?", 1000, "Lagt en order på nyårsafton (2015-)", 31, 12, "same_procedure_as_last_year"),
 	new Cheevo(1355, "One Last Thing", 1500, "Lagt en order 23.59 den 31:e december", 31, 12, "one_last_thing", "Lägg en order **klockan 23:59**"),
