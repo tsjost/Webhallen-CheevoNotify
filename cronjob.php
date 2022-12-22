@@ -52,6 +52,7 @@ $cheevos = [
 	new Cheevo(687, "Maybe Next Year, Santa...", 1000, "Lagt en order på julafton (2015-)", 24, 12, "maybe_next_year_santa"),
 	new Cheevo(1317, "Fudge You", 1000, "Lagt en order den 28 december. Linus Torvalds födelsedag (1969)", 28, 12, "fudge_you"),
 	new Cheevo(688, "Same Procedure as Last Year?", 1000, "Lagt en order på nyårsafton (2015-)", 31, 12, "same_procedure_as_last_year"),
+	new Cheevo(1355, "One Last Thing", 1500, "Lagt en order 23.59 den 31:e december", 31, 12, "one_last_thing", "Lägg en order **klockan 23:59**"),
 ];
 
 $month = date('m');
